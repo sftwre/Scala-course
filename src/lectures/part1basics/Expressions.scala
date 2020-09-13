@@ -27,7 +27,7 @@ object Expressions extends App {
   println(aCondValue)
 
   // looping is specific to imperitave languages
-  // EVERYTHING in scala is an expression !
+  /** EVERYTHING in scala is an expression ! **/
   val aWeirdValue = (aVariable = 3) // unit === void
   println(aWeirdValue)
 

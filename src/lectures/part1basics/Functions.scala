@@ -75,6 +75,7 @@ object Functions extends App {
   println(isPrime(37))
   println(isPrime(2003))
 
-
+  // compiler infers return type and variable type
+  def succ(x:Int) = x + 1
 
 }
